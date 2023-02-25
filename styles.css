@@ -55,7 +55,7 @@ header {
 
   section{
     z-index: 998;
-    height: 96vh;
+    height: 100vh;
   }
 
 
@@ -63,6 +63,7 @@ header {
 
   #sobre-mi {
     scroll-behavior: smooth;
+    background-color: #333;
   }
   
   #recetas {
@@ -72,10 +73,17 @@ header {
   
   #experiencia-laboral {
     scroll-behavior: smooth;
+    background-color: #999;
   }
   
   #habilidades {
     scroll-behavior: smooth;
+    background-color: aqua;
+  }
+
+  #educacion{
+    scroll-behavior: smooth;
+    background-color:brown;
   }
   
   
