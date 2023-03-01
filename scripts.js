@@ -73,3 +73,18 @@ link4.addEventListener("click", () => {
 link5.addEventListener("click", () => {
   tl5.restart();
 });
+
+
+
+const tareasTitulo = document.getElementById('tareas-titulo');
+const tareasLista = document.getElementById('tareas-lista');
+
+tareasTitulo.addEventListener('click', () => {
+  gsap.from(tareasLista, {
+    opacity: 0,
+    y: 50,
+    duration: 1,
+    stagger: 0.2,
+  });
+});
+

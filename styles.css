@@ -25,7 +25,7 @@ header {
   }
   
   nav li {
-    margin-right: 30px;
+    margin-right: 10px;
   }
   
   nav li:last-child {
@@ -51,7 +51,7 @@ header {
   .logo img {
     height: 50px;
   }
-  /* Estilos parael main */
+  /* Estilos para el main */
 
   section{
     z-index: 998;
@@ -67,7 +67,7 @@ header {
   }
   
   #recetas {
-    scroll-behavior: smooth; /* Establece el efecto de desplazamiento suave al hacer clic en el enlace */
+    scroll-behavior: smooth; 
     background-color: #f00;
   }
   
@@ -104,6 +104,91 @@ footer {
     font-size: 14px;
     margin: 0;
   }
+
+  /* Media queries */
+
+@media (max-width: 768px) {
+
+  nav a {
+    font-size: 12px;
+  }
+
+  .logo img {
+    height: 25px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  li{
+    font-size: 12px;
+  }
+
+  .tareas-realizadas {
+    display: none;
+  }
+
+  .tareas-realizadas li {
+    opacity: 0;
+  }
+  
   
 
-  
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  nav{
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+
+  .logo img {
+    height: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+  .tareas-realizadas {
+    display: none;
+  }
+
+  .tareas-realizadas li {
+    opacity: 0;
+  }
+
+
+}
