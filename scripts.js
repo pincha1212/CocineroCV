@@ -74,17 +74,22 @@ link5.addEventListener("click", () => {
   tl5.restart();
 });
 
+const tituloPC = document.getElementById('tituloSM')
+const descriptionP = document.getElementById('descriptionSM')
+const openModalButton = document.getElementById('open-modal');
+const closeModalButton = document.getElementById('btn btn-close close-modal');
+const modalOverlay = document.getElementById('modal-overlay');
 
-
-const tareasTitulo = document.getElementById('tareas-titulo');
-const tareasLista = document.getElementById('tareas-lista');
-
-tareasTitulo.addEventListener('click', () => {
-  gsap.from(tareasLista, {
-    opacity: 0,
-    y: 50,
-    duration: 1,
-    stagger: 0.2,
-  });
+openModalButton.addEventListener('click', () => {
+  modalOverlay.style.display = 'block';
+  openModalButton.style.display = 'none';
+  descriptionP.style.display = 'none';
+  tituloPC.style.display = 'none';
 });
 
+closeModalButton.addEventListener('click', () => {
+  modalOverlay.style.display = 'none';
+  openModalButton.style.display = 'block';
+  descriptionP.style.display = 'block';
+  tituloPC.style.display = 'block';
+});
