@@ -70,10 +70,16 @@ header {
     margin-top: 8%;
   }
   .title-pc{
-    display: flex;
-    flex-direction: row;
-
+    position: absolute;
+    left: -13%;
+    top: 18%;
+    transform: rotate(90deg);
   }
+
+  .descriptionSM-pc{
+    transform: translate(2%, 19%);
+  }
+
   #sobre-mi p {
     justify-content: center;
   }
@@ -81,15 +87,15 @@ header {
   #sobre-mi img {
     position: absolute;
     top: 13%;
-    left: -10%;
-    width: 100px !important; 
-    height: 100px;
+    left: -8%;
+    width: 50px !important; 
+    height: 50px;
   }
 
   #sobre-mi button#open-modal.btn.btn-danger {
     position: absolute;
-    bottom: 12%;
-    left: 1%;
+    bottom: 25%;
+    left: -10%;
     width: 11%;
   }
 
@@ -102,6 +108,7 @@ header {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
   }
+
   
   #modal {
     position: absolute;
@@ -150,9 +157,6 @@ header {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
 }
 
-.card-body {
-  padding: 0.700rem;
-}
 
 
   #recetas {
@@ -162,13 +166,37 @@ header {
   
   #experiencia-laboral {
     scroll-behavior: smooth;
-    background-color: #999;
   }
+
+  .title-exp{
+    position: absolute;
+    left: -20%;
+    top: 22%;
+    transform: rotate(90deg);
+  }
+
+  .exp-pc{
+    transform: translate(0%, 2%);
+  }
+
+
   
   #habilidades {
     scroll-behavior: smooth;
-    background-color: aqua;
   }
+
+  .title-hab{
+    position: absolute;
+    left: -14%;
+    top: 13%;
+    transform: rotate(90deg);
+  }
+
+  .hab-pc{
+    transform: translate(0%, 2%);
+  }
+
+
 
   #educacion{
     scroll-behavior: smooth;
