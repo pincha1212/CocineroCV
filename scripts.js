@@ -79,12 +79,18 @@ const descriptionP = document.getElementById('descriptionSM')
 const openModalButton = document.getElementById('open-modal');
 const closeModalButton = document.getElementById('btn btn-close close-modal');
 const modalOverlay = document.getElementById('modal-overlay');
+const img = document.getElementById('img-MSM');
+const tl = gsap.timeline({ paused: true });
+tl.to(img, { rotation: 360, scale: 2.0, x: '800%', y:'75%' , duration: 2, ease: 'power2.out',});
 
 openModalButton.addEventListener('click', () => {
   modalOverlay.style.display = 'block';
   openModalButton.style.display = 'none';
   descriptionP.style.display = 'none';
   tituloPC.style.display = 'none';
+  tl.play();
+  img.style.zIndex = '1001';
+  modal.style.display = 'block';
 });
 
 closeModalButton.addEventListener('click', () => {
@@ -92,4 +98,7 @@ closeModalButton.addEventListener('click', () => {
   openModalButton.style.display = 'block';
   descriptionP.style.display = 'block';
   tituloPC.style.display = 'block';
+  tl.reverse();
+  img.style.zIndex = '998';
+  modal.style.display = 'none';
 });

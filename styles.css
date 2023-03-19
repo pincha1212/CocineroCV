@@ -1,5 +1,10 @@
 body{
-    overflow: hidden;
+  overflow: hidden;
+  background-image: url("./assets/fondo-productos-mesa-madera.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Estilos para el header */
@@ -66,14 +71,17 @@ header {
 
   #sobre-mi h2 {
     font-size: 2em;
-    color: #333;
+    color: white;
     margin-top: 8%;
+    text-shadow: -1px 0 #ff0000, 0 1px #ff0000, 1px 0 #ff0000, 0 -1px #ff0000;
   }
   .title-pc{
     position: absolute;
     left: -13%;
     top: 18%;
     transform: rotate(90deg);
+    color: white;
+    text-shadow: -1px 0 #ff0000, 0 1px #ff0000, 1px 0 #ff0000, 0 -1px #ff0000;
   }
 
   .descriptionSM-pc{
@@ -84,12 +92,20 @@ header {
     justify-content: center;
   }
 
-  #sobre-mi img {
+  #social-icon img {
     position: absolute;
-    top: 13%;
-    left: -8%;
+    top: 11%;
+    left: -11%;
     width: 50px !important; 
     height: 50px;
+  }
+
+  #img-MSM{
+    position: absolute;
+    top: 12%;
+    left: -10%;
+    width: 75px !important; 
+    height: 75px;
   }
 
   #sobre-mi button#open-modal.btn.btn-danger {
@@ -161,7 +177,6 @@ header {
 
   #recetas {
     scroll-behavior: smooth; 
-    background-color: #f00;
   }
   
   #experiencia-laboral {
@@ -173,6 +188,8 @@ header {
     left: -20%;
     top: 22%;
     transform: rotate(90deg);
+    color: white;
+    text-shadow: -1px 0 #ff0000, 0 1px #ff0000, 1px 0 #ff0000, 0 -1px #ff0000;
   }
 
   .exp-pc{
@@ -190,6 +207,8 @@ header {
     left: -14%;
     top: 13%;
     transform: rotate(90deg);
+    color: white;
+    text-shadow: -1px 0 #ff0000, 0 1px #ff0000, 1px 0 #ff0000, 0 -1px #ff0000;
   }
 
   .hab-pc{
@@ -200,8 +219,17 @@ header {
 
   #educacion{
     scroll-behavior: smooth;
-    background-color:brown;
+    
   }
+
+  .title-edu{
+    position: absolute;
+    left: -3%;
+    top: 14%;
+    transform: rotate(90deg);
+    color: white;
+    text-shadow: -1px 0 #ff0000, 0 1px #ff0000, 1px 0 #ff0000, 0 -1px #ff0000;
+    }
   
   
 
