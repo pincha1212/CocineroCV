@@ -81,7 +81,7 @@ const closeModalButton = document.getElementById('btn btn-close close-modal');
 const modalOverlay = document.getElementById('modal-overlay');
 const img = document.getElementById('img-MSM');
 const tl = gsap.timeline({ paused: true });
-tl.to(img, { rotation: 360, scale: 2.0, x: '800%', y:'75%' , duration: 2, ease: 'power2.out',});
+tl.to(img, { rotation: 360, scale: 2.0, x: '800%', y:'75%' , duration: 0.9, ease: 'power2.out',});
 
 openModalButton.addEventListener('click', () => {
   modalOverlay.style.display = 'block';

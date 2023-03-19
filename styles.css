@@ -178,6 +178,10 @@ header {
   #recetas {
     scroll-behavior: smooth; 
   }
+
+  .recetas{
+    color: red;
+  }
   
   #experiencia-laboral {
     scroll-behavior: smooth;
@@ -224,13 +228,16 @@ header {
 
   .title-edu{
     position: absolute;
-    left: -3%;
-    top: 14%;
+    left: -16%;
+    top: 28%;
     transform: rotate(90deg);
     color: white;
     text-shadow: -1px 0 #ff0000, 0 1px #ff0000, 1px 0 #ff0000, 0 -1px #ff0000;
     }
   
+    .descriptionEDU{
+      transform: translate(2%, 19%);
+    }
   
 
   /* Estilos para el footer */
