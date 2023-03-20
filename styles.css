@@ -79,7 +79,7 @@ section {
 
 .title-pc {
   position: absolute;
-  left: -13%;
+  left: -1.5%;
   top: 18%;
   transform: rotate(90deg);
   color: white;
@@ -104,8 +104,8 @@ section {
 
 #img-MSM {
   position: absolute;
-  top: 18%;
-  left: -10%;
+  top: 12%;
+  left: 0.5%;
   width: 75px !important;
   height: 75px;
 }
@@ -113,7 +113,7 @@ section {
 #sobre-mi button#open-modal.btn.btn-danger {
   position: absolute;
   bottom: 25%;
-  left: -10%;
+  left: 1%;
   width: 11%;
 }
 
@@ -358,7 +358,7 @@ footer p {
 
   #sobre-mi button#open-modal.btn.btn-danger {
     bottom: 0% !important;
-    left: 0% !important;
+    left: 1% !important;
     width: 40% !important;
   }
 
