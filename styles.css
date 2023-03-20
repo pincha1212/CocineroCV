@@ -111,9 +111,9 @@ section {
 }
 
 #sobre-mi button#open-modal.btn.btn-danger {
-  position: absolute;
-  bottom: 25%;
-  left: 0.25%;
+  position: relative;
+  bottom: -20%;
+  left: -9.5%;
   width: 10%;
 }
 
