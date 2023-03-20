@@ -307,7 +307,7 @@ footer p {
   }
 
   section#educacion{
-    margin-top: 25%;
+    margin-top: 25% !important;
   }
 
   section#experiencia-laboral{
