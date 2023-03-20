@@ -358,7 +358,7 @@ footer p {
   }
 
   #sobre-mi button#open-modal.btn.btn-danger {
-    bottom: 0% !important;
+    bottom: 15% !important;
     left: 1% !important;
     width: 40% !important;
   }
