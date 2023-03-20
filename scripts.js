@@ -108,7 +108,7 @@ function detectDeviceAndAnimate() {
   } else {
     // animación para dispositivos móviles
     const tl = gsap.timeline({ paused: true });
-    tl.to(img, { scale: 1.5, x: '0%', y:'50%' , duration: 0.9, ease: 'power2.out'});
+    tl.to(img, { scale: 1.5, x: '0%', y:'150%' , duration: 0.9, ease: 'power2.out'});
     openModalButton.addEventListener('click', () => {
       modalOverlay.style.display = 'block';
       openModalButton.style.display = 'none';
