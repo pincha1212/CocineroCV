@@ -113,8 +113,8 @@ section {
 #sobre-mi button#open-modal.btn.btn-danger {
   position: absolute;
   bottom: 25%;
-  left: 1%;
-  width: 11%;
+  left: 0.25%;
+  width: 10%;
 }
 
 #modal-overlay {
