@@ -306,6 +306,10 @@ footer p {
     font-size: 14px;
   }
 
+  section{
+    height: 140vh;
+  }
+
   section#educacion{
     margin-top: 25% !important;
   }
